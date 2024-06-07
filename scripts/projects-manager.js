@@ -180,7 +180,7 @@ const allProjects = [
       return ''
     }
     return projectThumbnailList.map((imageName) => {
-      return `<img src="/images/projects/${imageName}" alt="image du projet" class="project-display-thumbnail-item" />`
+      return `<img src="${document.URL}images/projects/${imageName}" alt="image du projet" class="project-display-thumbnail-item" />`
     }).join('')
   }
   function hideSelectProject() {
