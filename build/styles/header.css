@@ -1,0 +1,31 @@
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 2% 0;
+    gap: 20px;
+  }
+  
+  .header-link {
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .header-link:hover {
+    color: var(--font-regular-color);
+  }
+
+  @media screen and (max-width: 860px) {
+    .header {
+      display: none;
+    }
+  }
