@@ -8,7 +8,7 @@
   .projects-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 30vh;
+    min-height: 80vh;
   }
 
   .projects-list {
@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1200px;
+    min-width: 600px;
     margin-top: 10px;
     padding: 20px;
     background-color: var(--card-color);
@@ -99,8 +100,8 @@
   .projects-body-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     width: 100%;
   }
   
@@ -164,6 +165,12 @@
   @media screen and (max-width: 1290px) {
     .projects-body-container {
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-project-displayed {
+      min-width: 0px;
     }
 
     .projects-display-info {
