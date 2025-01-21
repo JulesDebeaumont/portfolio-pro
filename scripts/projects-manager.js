@@ -4,10 +4,11 @@ const allProjects = [
       company: 'CHU de Reims',
       description: `Application de requêtage et de détection d'anomalies dans les
                   entrepôts de données de santé. <br />
-                  Développée pour répondre à de nombreux besoins pour l'Institut
-                  d'Intelligence Artificielle en Santé.<br />`,
-      stack: 'Ruby on Rails, Quasar',
-      date: ['Juin 2023', 'Juin 2024'],
+                  Développée pour répondre à de nombreux besoins d'extraction pour l'Institut
+                  d'Intelligence Artificielle en Santé<br />
+                  mais aussi pour des analyses cadrées pour les professionnels de santé.`,
+      stack: 'Ruby on Rails, Quasar, ClickHouse',
+      date: ['Juin 2023', 'Janvier 2025'],
       team: 1,
       links: ['Application interne'],
       images: ['flammeche1.png', 'flammeche2.png', 'flammeche3.png', 'flammeche4.png']
@@ -17,9 +18,9 @@ const allProjects = [
       title: 'HomePOP',
       company: 'CHU de Reims',
       description: `Application de préparation de plateaux pour les blocs opératoires. <br />
-      Elle communique avec d'autres outils applicatifs via un serveur EAI-BizTalk. <br />`,
+      Elle communique avec d'autres outils applicatifs via un serveur BizTalk. <br />`,
       stack: 'Ruby on Rails, Quasar, Elastic Search, WebSockets',
-      date: ['Octobre 2022', 'Mai 2024'],
+      date: ['Octobre 2022', 'Janvier 2025'],
       team: 1,
       links: ['Application interne'],
       images: ['homepop1.png', 'homepop2.png', 'homepop3.png']
@@ -68,7 +69,8 @@ const allProjects = [
     {
       title: 'Astre',
       company: 'CHU de Reims',
-      description: `Application de récolte et de saisie de données anonymes concernant des greffes rénales.<br />`,
+      description: `Application de récolte et de saisie de données anonymes concernant des greffes rénales.<br />
+      Les données sont ensuite exportées afin de mener des études de statistique et de recherche.`,
       stack: 'Ruby on Rails, Quasar',
       date: ['Avril 2022', 'Aout 2022'],
       team: 1,
