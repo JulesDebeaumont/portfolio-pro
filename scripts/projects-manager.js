@@ -7,19 +7,18 @@ const allProjects = [
                   Développée pour répondre à de nombreux besoins d'extraction pour l'Institut
                   d'Intelligence Artificielle en Santé<br />
                   mais aussi pour des analyses cadrées pour les professionnels de santé.`,
-      stack: 'Ruby on Rails, Quasar, ClickHouse',
+      stack: '.NET, VueJS, ClickHouse',
       date: ['Juin 2023', 'Janvier 2025'],
       team: 1,
       links: ['Application interne'],
       images: ['flammeche1.png', 'flammeche2.png', 'flammeche3.png', 'flammeche4.png']
-
     },
     {
       title: 'HomePOP',
       company: 'CHU de Reims',
       description: `Application de préparation de plateaux pour les blocs opératoires. <br />
       Elle communique avec d'autres outils applicatifs via un serveur BizTalk. <br />`,
-      stack: 'Ruby on Rails, Quasar, Elastic Search, WebSockets',
+      stack: '.NET, VueJS, Elastic Search, WebSockets',
       date: ['Octobre 2022', 'Janvier 2025'],
       team: 1,
       links: ['Application interne'],
@@ -30,7 +29,7 @@ const allProjects = [
       company: 'CHU de Reims',
       description: `Site de l'Institut d'Intelligence Artificielle en Santé. <br />
       La solution offre un système d'édition de contenu couplé à des fonctionnalités de procédures pour les diverses demandes à l'Institut.<br />`,
-      stack: 'Ruby on Rails, Quasar',
+      stack: 'Ruby on Rails, VueJS',
       date: ['Avril 2023', 'Mai 2023'],
       team: 1,
       links: ['https://www.iias.fr'],
@@ -40,7 +39,7 @@ const allProjects = [
       title: 'DTA Explorer 3',
       company: 'CHU de Reims',
       description: `Application de prévisualisation de flux de serveur EAI.<br />`,
-      stack: 'Ruby on Rails, Quasar, Elastic Search',
+      stack: 'Ruby on Rails, VueJS, Elastic Search',
       date: ['Février 2023', 'Avril 2023'],
       team: 1,
       links: ['Application interne'],
@@ -50,7 +49,7 @@ const allProjects = [
       title: 'Stick in PCRA',
       company: 'CHU de Reims',
       description: `Application bureau d'impression d'étiquettes.<br />`,
-      stack: 'Quasar, Tauri',
+      stack: 'WPF, .NET',
       date: ['Avril 2024'],
       team: 1,
       links: ['Application interne'],
@@ -60,7 +59,7 @@ const allProjects = [
       title: 'Intranet CHU',
       company: 'CHU de Reims',
       description: `L'intranet du CHU sur-mesure.<br />`,
-      stack: 'Ruby on Rails, Quasar, Elastic Search, WebSockets',
+      stack: 'Ruby on Rails, VueJS, Elastic Search, WebSockets',
       date: ['Juillet 2023', 'Mars 2024'],
       team: 2,
       links: ['Application interne'],
@@ -71,7 +70,7 @@ const allProjects = [
       company: 'CHU de Reims',
       description: `Application de récolte et de saisie de données anonymes concernant des greffes rénales.<br />
       Les données sont ensuite exportées afin de mener des études de statistique et de recherche.`,
-      stack: 'Ruby on Rails, Quasar',
+      stack: 'Ruby on Rails, VueJS',
       date: ['Avril 2022', 'Aout 2022'],
       team: 1,
       links: ['Application interne'],
@@ -92,7 +91,7 @@ const allProjects = [
       company: null,
       description: `Jeux vidéos, sites vitrines, applications mobiles (Android), applications web, décompilation..<br />
       Bref, une partie de mon temps libre est destinée au simple plaisir de développer !`,
-      stack: '.NET, C, Quasar, React, Symfony, Tauri, Kotlin',
+      stack: '.NET, Unity, C, Lua, Kotlin',
       date: null,
       team: null,
       links: ['https://www.ootladder.com'],
