@@ -55,9 +55,8 @@
   .card-project-displayed-links {
     font-size: 16px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
   }
 
   .card-project-displayed-link-item {
