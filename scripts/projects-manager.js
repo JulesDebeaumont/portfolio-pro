@@ -1,10 +1,63 @@
 const allProjects = [
     {
+      title: 'NoyauSIH',
+      company: 'CHU de Reims',
+      description: `Système d'information hospitalier.<br />
+      L'application orchestre l'intégralité des droits, la gestion de toutes les entités et les interactions de l'intégralité du <br />
+      socle applicatif du groupement hospitalié universitaire (CHU de Reims, CHU d'Épernay, CHU de Châlons).`,
+      stack: 'Ruby on Rails, VueJS',
+      date: ['Janvier 2025', 'En cours'],
+      team: 2,
+      links: ['Application interne'],
+      images: [] // TODO
+    },
+     {
+      title: 'Mangrove64',
+      company: 'Open source',
+      description: `Librairie d'affichage et d'édition arborescente sous forme de grille`,
+      stack: 'VueJS',
+      date: ['Septembre 2025', 'En cours'],
+      team: 1,
+      links: ['https://github.com/CHUReimsDSN/Mangrove64-Vue'],
+      images: []
+     },
+     {
+      title: 'Submit64',
+      company: 'Open source',
+      description: `Librairie de géneration de formulaire transverse`,
+      stack: 'Ruby on Rails, VueJS',
+      date: ['Juin 2025', 'En cours'],
+      team: 1,
+      links: ['https://github.com/CHUReimsDSN/Submit64-Rails', 'https://github.com/CHUReimsDSN/Submit64-Vue'],
+      images: []
+    },
+     {
+      title: 'Query64',
+      company: 'Open source',
+      description: `Librairie de géneration de grille de consultation transverse`,
+      stack: 'Ruby on Rails, VueJS, SQL natif',
+      date: ['Mars 2025', 'Septembre 2025'],
+      team: 1,
+      links: ['https://github.com/CHUReimsDSN/Query64-Rails', 'https://github.com/CHUReimsDSN/Query64-Vue'],
+      images: []
+    },
+    {
+      title: 'EasilySMS',
+      company: 'CHU de Reims',
+      description: `Application complémentaire de DPI (Dossier Patient Informatisé).<br />
+      EasilySMS ajoute des fonctionnalités d'envoi et de suivi de SMS aux proches des patients par les agents de santé`,
+      stack: 'Ruby on Rails, VueJS',
+      date: ['Juin 2025', 'Juin 2025'],
+      team: 1,
+      links: ['Application interne'],
+      images: [] // TODO
+    },
+    {
       title: 'Flammèche',
       company: 'CHU de Reims',
       description: `Application de requêtage et de détection d'anomalies dans les
                   entrepôts de données de santé. <br />
-                  Développée pour répondre à de nombreux besoins d'extraction pour l'Institut
+                  Développée pour répondre à de nombreux besoins d'extraction de données pour l'Institut
                   d'Intelligence Artificielle en Santé<br />
                   mais aussi pour des analyses cadrées pour les professionnels de santé.`,
       stack: '.NET, VueJS, ClickHouse',
@@ -17,8 +70,8 @@ const allProjects = [
       title: 'HomePOP',
       company: 'CHU de Reims',
       description: `Application de préparation de plateaux pour les blocs opératoires. <br />
-      Elle communique avec d'autres outils applicatifs via un serveur BizTalk. <br />`,
-      stack: '.NET, VueJS, Elastic Search, WebSockets',
+      Elle communique avec d'autres outils applicatifs pour suivre la continuité et l'état des interventions en temps réel.<br />`,
+      stack: 'Ruby on Rails, VueJS, WebSockets',
       date: ['Octobre 2022', 'Janvier 2025'],
       team: 1,
       links: ['Application interne'],
@@ -32,13 +85,13 @@ const allProjects = [
       stack: 'Ruby on Rails, VueJS',
       date: ['Avril 2023', 'Mai 2023'],
       team: 1,
-      links: ['https://www.iias.fr'],
+      links: ['Application interne'],
       images: ['iias1.png', 'iias2.png', 'iias3.png']
     },
     {
       title: 'DTA Explorer 3',
       company: 'CHU de Reims',
-      description: `Application de prévisualisation de flux de serveur EAI.<br />`,
+      description: `Application de prévisualisation de flux de serveur Biztalk.<br />`,
       stack: 'Ruby on Rails, VueJS, Elastic Search',
       date: ['Février 2023', 'Avril 2023'],
       team: 1,
@@ -48,7 +101,7 @@ const allProjects = [
     {
       title: 'Stick in PCRA',
       company: 'CHU de Reims',
-      description: `Application bureau d'impression d'étiquettes.<br />`,
+      description: `Application bureau d'impression d'étiquettes pour imprimantes Zebra.<br />`,
       stack: 'WPF, .NET',
       date: ['Avril 2024'],
       team: 1,
@@ -69,7 +122,7 @@ const allProjects = [
       title: 'Astre',
       company: 'CHU de Reims',
       description: `Application de récolte et de saisie de données anonymes concernant des greffes rénales.<br />
-      Les données sont ensuite exportées afin de mener des études de statistique et de recherche.`,
+      Les données sont ensuite exportées et expoitable à des fins de statistique et de recherche.`,
       stack: 'Ruby on Rails, VueJS',
       date: ['Avril 2022', 'Aout 2022'],
       team: 1,
@@ -79,7 +132,7 @@ const allProjects = [
     {
       title: 'MyPlanning',
       company: 'Groupe Mary - Saint Quentin',
-      description: `Site de gestion et d'organisation des équipes.<br />`,
+      description: `Outil de gestion et d'organisation des équipes.<br />`,
       stack: 'Laravel, Livewire',
       date: ['Février 2022', 'Mars 2023'],
       team: 1,
@@ -89,9 +142,9 @@ const allProjects = [
     {
       title: 'Projets personnels',
       company: null,
-      description: `Jeux vidéos, sites vitrines, applications mobiles (Android), applications web, décompilation..<br />
+      description: `Jeux vidéos, sites vitrines, applications web, décompilation..<br />
       Bref, une partie de mon temps libre est destinée au simple plaisir de développer !`,
-      stack: '.NET, Unity, C, Lua, Kotlin',
+      stack: '.NET, Godot, Rust',
       date: null,
       team: null,
       links: ['https://www.ootladder.com'],
