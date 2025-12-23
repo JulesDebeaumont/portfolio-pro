@@ -50,7 +50,7 @@ const allProjects = [
       date: ['Juin 2025', 'Juin 2025'],
       team: 1,
       links: ['Application interne'],
-      images: [] // TODO
+      images: ['easilysms1.png']
     },
     {
       title: 'Flammèche',
