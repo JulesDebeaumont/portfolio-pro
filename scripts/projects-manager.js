@@ -4,7 +4,7 @@ const allProjects = [
       company: 'CHU de Reims',
       description: `Système d'information hospitalier.<br />
       L'application orchestre l'intégralité des droits, la gestion de toutes les entités et les interactions de l'intégralité du <br />
-      socle applicatif du groupement hospitalié universitaire (CHU de Reims, CHU d'Épernay, CHU de Châlons).`,
+      socle applicatif du groupement hospitalier universitaire (CHU de Reims, CHU d'Épernay, CHU de Châlons).`,
       stack: 'Ruby on Rails, VueJS',
       date: ['Janvier 2025', 'En cours'],
       team: 2,
@@ -14,7 +14,7 @@ const allProjects = [
      {
       title: 'Mangrove64',
       company: 'Open source',
-      description: `Librairie d'affichage et d'édition arborescente sous forme de grille`,
+      description: `Librairie d'affichage et d'édition arborescente sous forme de grille.`,
       stack: 'VueJS',
       date: ['Septembre 2025', 'En cours'],
       team: 1,
@@ -24,7 +24,7 @@ const allProjects = [
      {
       title: 'Submit64',
       company: 'Open source',
-      description: `Librairie de géneration de formulaire transverse`,
+      description: `Librairie de génération de formulaires transverse`,
       stack: 'Ruby on Rails, VueJS',
       date: ['Juin 2025', 'En cours'],
       team: 1,
@@ -34,7 +34,7 @@ const allProjects = [
      {
       title: 'Query64',
       company: 'Open source',
-      description: `Librairie de géneration de grille de consultation transverse`,
+      description: `Librairie de génération de grilles de consultation transverse`,
       stack: 'Ruby on Rails, VueJS, SQL natif',
       date: ['Mars 2025', 'Septembre 2025'],
       team: 1,
@@ -45,7 +45,7 @@ const allProjects = [
       title: 'EasilySMS',
       company: 'CHU de Reims',
       description: `Application complémentaire de DPI (Dossier Patient Informatisé).<br />
-      EasilySMS ajoute des fonctionnalités d'envoi et de suivi de SMS aux proches des patients par les agents de santé`,
+      EasilySMS ajoute des fonctionnalités d'envoi et de suivi de SMS aux proches des patients par les agents de santé.`,
       stack: 'Ruby on Rails, VueJS',
       date: ['Juin 2025', 'Juin 2025'],
       team: 1,
